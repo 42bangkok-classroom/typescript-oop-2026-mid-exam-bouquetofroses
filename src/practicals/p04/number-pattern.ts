@@ -1,17 +1,14 @@
 // Write your code below
 const n4 = Number(process.argv[2]);
-for (let i = 0 ; i < n4 ; i++ ) {
+for (let i = 1 ; i <= n4 ; i++ ) {
     let rs4 = "";
 
-    for (let k = 0 ; k < n4-1-i  ; k++){
+    for (let k = 1 ; k <= n4-i  ; k++){
         rs4 += " " ;
-        for (let j = 0 ; j < n4-k  ; j++){
-            rs4 += j;
-        }
     }
-    // for (let j = 0 ; j < n4-k  ; j++){
-    //     rs4 += j;
-    // }
+    for (let j = 1 ; j < n4-i  ; j++){
+        rs4 += j;
+    }
 
     console.log(rs4);
 }
