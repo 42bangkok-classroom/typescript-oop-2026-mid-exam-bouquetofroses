@@ -1,10 +1,13 @@
 interface Person {
   firstName?: string;
   lastName?: string;
-  age?: number;
+  age: number;
 }
 
-function sortPersons(persons: Person[]): Person[] {}
+function sortPersons(persons: Person[]): Person[] {
+  return [...persons].sort((a,b)=> a.age - b.age)
+
+}
 
 
 const persons: Person[] = [
