@@ -1,6 +1,6 @@
 const myScore = Number(process.argv[2]);
 if ( myScore > 100 ){
-  console.log("Invalid Input");
+  console.log("Invalid input");
 }
 else if ( myScore >= 80 ) {
   console.log("A");
@@ -18,5 +18,5 @@ else if ( myScore <= 50 && myScore >= 0) {
   console.log("F");
 }
 else {
-  console.log("Invalid Input");
+  console.log("Invalid input");
 }
