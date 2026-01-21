@@ -14,7 +14,7 @@ else if ( myScore >= 60 ){
 else if ( myScore >= 50 ){
   console.log("D");
 }
-else if ( myScore <= 50 && myScore >= 0) {
+else if ( myScore < 50 && myScore >= 0) {
   console.log("F");
 }
 else {
