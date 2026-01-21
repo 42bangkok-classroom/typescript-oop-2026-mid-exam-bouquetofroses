@@ -2,13 +2,25 @@
 const n4 = Number(process.argv[2]);
 for (let i = 0 ; i < n4 ; i++ ) {
     let rs4 = "";
+    for (let k = n4 ; k > n4-1-i  ; k++){
+        rs4 += " " ;
+    }
 
     for (let j = 0 ; j < n4 ; j++){
-        rs4 += " ";
+        rs4 += j;
     }
     
-    for (let k = 0 ; k ; k--){
-        rs4 += k ;
-    }
+
     console.log(rs4);
 }
+
+// const size1212 = Number(process.argv[2]);
+
+//   for (let i = size1212; i >= 1; i--) {
+//     let row = "";
+//     for (let j = i; j >= 1; j--) {
+//       row += j;
+//     }
+//     console.log(row);
+//   }
+
