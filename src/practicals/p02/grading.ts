@@ -3,19 +3,19 @@ if ( myScore > 100 ){
   console.log("Invalid input");
 }
 else if ( myScore >= 80 ) {
-  console.log("A");
+  console.log("Grade is A");
 } 
 else if ( myScore >= 70 ){
-  console.log("B");
+  console.log("Grade is B");
 }
 else if ( myScore >= 60 ){
-  console.log("C");
+  console.log("Grade is C");
 }
 else if ( myScore >= 50 ){
-  console.log("D");
+  console.log("Grade is D");
 }
 else if ( myScore < 50 && myScore >= 0) {
-  console.log("F");
+  console.log("Grade is F");
 }
 else {
   console.log("Invalid input");
