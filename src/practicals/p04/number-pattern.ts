@@ -6,7 +6,7 @@ for (let i = 1 ; i <= n4 ; i++ ) {
     for (let k = 1 ; k <= n4-i  ; k++){
         rs4 += " " ;
     }
-    for (let j = 1 ; j < n4-i  ; j++){
+    for (let j = i ; j < n4-i  ; j--){
         rs4 += j;
     }
 
